@@ -4,7 +4,6 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import ImageSlider from '../ImageSlider';
 import { SliderData } from '../SliderData';
-import {NikeCard} from '../nikeCard'
 import Navbar from '../Navbar';
 import HorizontalCards from '../HorizontalCards'
 import HorizontalCards3D from '../HorizontalCards3D'
@@ -23,7 +22,7 @@ function Home() {
      <img
               className='bottom-logo'
               alt='Travel Image'
-              src={'../images/logo.jpeg'}
+              src={'../images/logo.png'}
             />
      </div>
       <Footer />

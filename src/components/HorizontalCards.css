@@ -15,6 +15,7 @@
   max-height: 400px;
   display: flex;
   overflow-x: auto;
+  padding: 20px;
   margin: 60px;
 }
 .hozizontal_cards__wrapper {

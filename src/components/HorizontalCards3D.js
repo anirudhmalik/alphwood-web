@@ -1,7 +1,6 @@
 import React from 'react';
 import './HorizontalCards.css';
 import '../App.css';
-import CardItem from './HorizontalCardItem';
 import { NikeCard } from './nikeCard'
 import Chair1 from "../assets/3Dimages/img1.png";
 import Chair2 from "../assets/3Dimages/img2.png";

@@ -2,9 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Marginer } from "../marginer";
 
-import NikeImg from "../../assets/images/nike-logo.png";
-
-
 export function ShoesDetails({ name, price, description, secondaryColor }) {
   
 const DetailsContainer = styled.div`
@@ -57,18 +54,7 @@ border-radius: 8px;
 }
 `;
 
-const NikeLogo = styled.div`
-width: 100%;
-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
 
-img {
-  width: auto;
-  height: 13px;
-}
-`;
   return (
     <DetailsContainer>
       <SmallText>{ name}</SmallText>

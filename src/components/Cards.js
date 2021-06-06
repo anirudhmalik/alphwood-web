@@ -15,6 +15,8 @@ import { motion } from 'framer-motion';
   cursor: pointer;
   background: #f4921e;
   color: #fff;
+  user-select: none;
+}
 `;
 
 
