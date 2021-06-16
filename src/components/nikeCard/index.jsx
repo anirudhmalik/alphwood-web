@@ -6,7 +6,7 @@ import styled from "styled-components";
 import { ShoesDetails } from "./shoesDetails";
 
 
-export function NikeCard({ name, price, description, imageUrl, primaryColor, secondaryColor }) {
+export function NikeCard({ name,name2, price, description, imageUrl, primaryColor, secondaryColor }) {
 
   const CardWrapper = styled.div`
   width: 100%;
@@ -137,6 +137,7 @@ const Shoes = styled(motion.div)`
         <BottomContainer>
           <ShoesDetails
             name={name}
+            name2={ name2}
             price={price}
             description={description}
             secondaryColor={ secondaryColor}

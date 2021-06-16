@@ -26,7 +26,7 @@ function Cards() {
           </div>
           <div className='navbar-logo'>
           <div className={id===3 ? 'nav-links-selected' : 'nav-links'}  onClick={()=>setID(3)} >
-           {"BENCH"}
+           {"OTTOMAN"}
           </div>
           </div>
       </div>
@@ -35,43 +35,43 @@ function Cards() {
      <div className='cards__wrapper2'>
      <CardItem
                 src='images/img6.png'
-                text='Explore the hidden waterfall deep inside the Amazon Jungle'
+                text='Executive Chair'
                 label='Imported'
                 path='/services'
               />
               <CardItem
                 src='images/img7.png'
-                text='Travel through the Islands of Bali in a Private Cruise'
+                text='Office Chair'
                 label='Luxury'
                 path='/services'
               />
             <CardItem
                 src='images/img8.png'
-                text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                text='Executive Chair with Head rest'
                 label='Mystery'
                 path='/services'
               />
               <CardItem
                 src='images/img9.png'
-                text='Experience Football on Top of the Himilayan Mountains'
+                text='Mesh Chair with Mid Back'
                 label='Adventure'
                 path='/products'
               />
               <CardItem
                 src='images/img10.png'
-                text='Ride through the Sahara Desert on a guided camel tour'
+                text='Mesh Chair with Low Back'
                 label='Adrenaline'
                 path='/sign-up'
           />
            <CardItem
                 src='images/img11.png'
-                text='Ride through the Sahara Desert on a guided camel tour'
+                text='Leatherette Executive Chair'
                 label='Adrenaline'
                 path='/sign-up'
           />
            <CardItem
                 src='images/img12.png'
-                text='Ride through the Sahara Desert on a guided camel tour'
+                text='Office Chair'
                 label='Adrenaline'
                 path='/sign-up'
               />

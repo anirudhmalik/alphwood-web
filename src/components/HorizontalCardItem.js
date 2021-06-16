@@ -6,7 +6,7 @@ function HorizontalCardItem(props) {
     <>
       <li className='cards__item2'>
         <Link className='cards__item__link2' to={props.path}>
-          <figure className='cards__item__pic-wrap2' data-category={props.label}>
+          <figure className='cards__item__pic-wrap2'>
             <img
               className='cards__item__img2'
               alt='Travel Image'

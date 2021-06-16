@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Marginer } from "../marginer";
 
-export function ShoesDetails({ name, price, description, secondaryColor }) {
+export function ShoesDetails({ name,name2, price, description, secondaryColor }) {
   
 const DetailsContainer = styled.div`
 width: 100%;
@@ -59,8 +59,8 @@ border-radius: 8px;
     <DetailsContainer>
       <SmallText>{ name}</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>{ name} SE GC</MediumText>
-        <MediumText>${ price}</MediumText>
+        <MediumText>{ name2}</MediumText>
+       {/* <MediumText>${ price}</MediumText>*/}
       </SpacedHorizontalContainer>
       <Marginer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>

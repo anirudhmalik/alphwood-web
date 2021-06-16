@@ -15,13 +15,15 @@ function Cards() {
       <div className='cards__wrapper'>
           <ul className='cards__items'>
               <NikeCard name={"office chair"}
+                name2={"Leatherette Office Chair"}
                 price={"600"}
                 description={"buy it now"}
                 imageUrl={Chair1}
                 primaryColor={ "brown"}
                 secondaryColor={"pink"}
               />
-               <NikeCard name={"LOUNGE CHAIR"}
+              <NikeCard name={"LOUNGE CHAIR"}
+                 name2={"Metal Living Room Chair"}
                 price={"400"}
                 description={"buy it now"}
                 imageUrl={Chair2}
@@ -29,6 +31,7 @@ function Cards() {
                 secondaryColor={"#f4921e"}
               />
               <NikeCard name={"BOSS CHAIR"}
+                name2={"Office Executive Chair"}
                 price={"900"}
                 description={"buy it now"}
                 imageUrl={Chair3}

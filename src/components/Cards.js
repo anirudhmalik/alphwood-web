@@ -30,34 +30,34 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img1.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Imported'
+              text='With Adjustable Seat Height, Head Support, Recline, Armrest'
+              label='Leatherette Comfort'
               path='/services'
             />
             <CardItem
               src='images/img2.png'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='Primary material :Metal,  Velvet; Best for Living Room, Bed Room'
               label='Luxury'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img3.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/img6.png'
+              text='Office use Adjustable Seat Height, Head Support, Recline'
+              label='Executive'
               path='/services'
             />
             <CardItem
-              src='images/img4.png'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/img12.png'
+              text='Experience comfort within your working environment'
+              label='Comfort'
               path='/products'
             />
             <CardItem
-              src='images/img5.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/img10.png'
+              text='Office chair with upholstery type: Mesh, Embossed, Cushion'
+              label='Mesh Chair'
               path='/sign-up'
             />
           </ul>         
